@@ -1,0 +1,16 @@
+#expirator-label::before { font-family: "dashicons"; content: "\f145"; 
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 20px/1 'dashicons';
+	vertical-align: top;
+	margin-right: 5px;
+	margin-right: 0.5rem;
+}
+
+#expirator-settings { margin-top: 10px; border: 1px solid #ddd; padding: 5px; border-radius: 6px; }
+#expiratordate { width: 100%; cursor: pointer; text-align: center; background: #fff; }
+#expiratortime { width: 100%; cursor: pointer; text-align: center; background: #fff; }
+#expirator-postmeta-wrapper { margin-top: 10px; }
+#expirator-postmeta-wrapper select { margin-top: 5px; }
+
+#expirator-postmeta-box { border: 1px solid #ddd; background: #ddd; padding: 5px; border-radius: 6px; margin-bottom: 5px; margin-top: 5px; }
