@@ -3,7 +3,7 @@ Contributors: farne
 Tags: posts, comments, expire, deactivate, schedule, scheduling, spam
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,4 +33,8 @@ Comment Expirator allows to schedule closing of comments, trackbacks and pingbac
 
 = 1.0.0 =
 * Initial version
+
+= 1.1.0 =
+* New feature. Now possible to set a default expiration time in days.
+* A little code cleanup.
 

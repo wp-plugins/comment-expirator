@@ -71,6 +71,18 @@
 
 
 		/**
+		 * __isset
+		 * 
+		 * Function for checking if an object propery is set
+		 */
+		public function __isset( $property ) {
+
+			return isset( $this->values[$property] );
+
+		}
+
+
+		/**
 		 * save
 		 * 
 		 * Save the comment expirator postmeta connected to the post

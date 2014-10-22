@@ -88,7 +88,8 @@
       $time       = isset( $_POST['expirator']['time'] ) && strlen( $_POST['expirator']['time'] ) == 5 ? sanitize_text_field( $_POST['expirator']['time'] ) : null;
       $use        = isset( $_POST['expirator']['use'] ) ? true : false;
       $disable_pt = isset( $_POST['expirator']['pt'] ) ? 'true' : 'false';
-      
+
+
       // Only do this if checkbox is checked and we actually have a date and time
       if( !empty( $date ) && !empty( $time ) && $use ) {
 
@@ -228,10 +229,6 @@
         $checked = '';
       }
 
-      //echo '<pre>' . print_r( $schedule, true ) . '</pre>';
-      //echo '<pre>' . print_r( $options, true ) . '</pre>';
-
-
 
       $pt_checked = $schedule->disable_pt;
       if( empty( $pt_checked ) && ( isset( $options['disable_pt'] ) && $options['disable_pt'] == true ) ) {
@@ -244,6 +241,14 @@
         $pt_checked = '';
       }
 
+
+      if( empty( $schedule->date ) ) {
+        $default_time = $options['default_time'];
+        if( !empty( $default_time ) && is_int( $default_time ) ) {
+          $schedule->date = date('Y-m-d', strtotime("+$default_time days"));
+          $schedule->time = date_i18n('H:i');
+        }
+      }
 
 
       $show = !$schedule->run ? ' style="display: none;" ' : '';
