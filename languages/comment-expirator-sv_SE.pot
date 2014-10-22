@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: comment-expirator\n"
+"POT-Creation-Date: 2014-10-22 19:19+0100\n"
+"PO-Revision-Date: 2014-10-22 19:21+0100\n"
+"Last-Translator: Andeas Färnstrand <andreas@farnstranddev.se>\n"
+"Language-Team:  <andreas@farnstranddev.se>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/comment.php:202
+msgid "Comment expiration"
+msgstr "Avaktivering av kommentarer"
+
+#: classes/comment.php:257
+msgid "Deactivate comments"
+msgstr "Avaktivera kommentarer"
+
+#: classes/comment.php:259
+msgid "Date"
+msgstr "Datum"
+
+#: classes/comment.php:261
+msgid "Time"
+msgstr "Tid"
+
+#: classes/comment.php:263
+msgid "Also disable trackbacks and pingbacks"
+msgstr "Avaktivera också trackbacks och pingbacks"
+
+#: classes/settings.php:51
+msgid "Comment Expirator"
+msgstr "Comment Expirator"
+
+#: classes/settings.php:66
+msgid "Comment Expirator Settings"
+msgstr "Inställningar för Comment Expirator"
+
+#: classes/settings.php:94
+msgid "Post Types"
+msgstr "Posttyper"
+
+#: classes/settings.php:101
+msgid ""
+"Check the post types you wish to display the comment expiration options on"
+msgstr ""
+"Kryssa i de posttyper  du vill visa inställningar för avaktivering av "
+"kommentarer på"
+
+#: classes/settings.php:109
+msgid "Disable trackbacks and pingbacks by default"
+msgstr "Avaktivera trackbacks och pingbacks som standard"
+
+#: classes/settings.php:119
+msgid "Default time"
+msgstr "Standardtid"
+
+#: classes/settings.php:126
+msgid "Set a default expiration time in days"
+msgstr "Sätt en standardutgångstid i antal dagar"
+
+#: classes/settings.php:176
+msgid "Enter your settings below:"
+msgstr "Ange dina inställningar nedan:"
+
+#: classes/settings.php:240
+msgid "Enter :"
+msgstr "Skriv :"
+
+#: classes/settings.php:253
+msgid "Empty this field if you do not want a default time."
+msgstr "Töm detta fält om du inte vill ha en standardtid."
