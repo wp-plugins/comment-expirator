@@ -4,7 +4,7 @@
 	/*
 	Plugin Name: Comment Expirator
 	Description: The plugin lets you set a specific closing date and time for comments on any post type.
-	Version: 1.1.0
+	Version: 1.1.1
 	Author: Andreas Färnstrand <andreas@farnstranddev.se>
   Author URI: http://www.farnstranddev.se
   Text Domain: comment-expirator

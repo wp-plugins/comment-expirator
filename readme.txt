@@ -40,4 +40,3 @@ Comment Expirator allows to schedule closing of comments, trackbacks and pingbac
 = 1.1.0 =
 * New feature. Now possible to set a default expiration time in days.
 * A little code cleanup.
-
