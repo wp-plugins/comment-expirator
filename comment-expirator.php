@@ -34,7 +34,7 @@
 	define( 'COMMENT_EXPIRATOR_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
  	define( 'COMMENT_EXPIRATOR_TEXTDOMAIN', 'comment-expirator' );
   define( 'COMMENT_EXPIRATOR_TEXTDOMAIN_PATH', dirname( plugin_basename( __FILE__) ) .'/languages' );
-  define( 'COMMENT_EXPIRATOR_VERSION', '1.1.0' );
+  define( 'COMMENT_EXPIRATOR_VERSION', '1.1.1' );
 
 	// Require necessary classes
 	require_once( 'classes/comment.php' );

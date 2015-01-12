@@ -2,8 +2,8 @@
 Contributors: farne
 Tags: posts, comments, expire, deactivate, schedule, scheduling, spam
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.1.0
+Tested up to: 4.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,9 @@ Comment Expirator allows to schedule closing of comments, trackbacks and pingbac
 * Swedish
 
 == Changelog ==
+
+= 1.1.1 =
+* Bugfix to remove a php warning on the settings page.
 
 = 1.0.0 =
 * Initial version
