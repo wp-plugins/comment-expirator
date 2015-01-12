@@ -132,6 +132,11 @@
     }
 
 
+    public function print_default_date_section_info() {
+      
+    }
+
+
     /**
      * Sanitize each setting field as needed
      *
